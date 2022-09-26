@@ -1,0 +1,6 @@
+Feature: Checkout Item
+
+Scenario: Checkout Items
+Given Item must be available in cart
+When User Checkout
+Then Order must checkedout
