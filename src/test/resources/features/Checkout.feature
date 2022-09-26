@@ -15,4 +15,9 @@ Scenario: AddItem to Cart
 Given Navigate to Item Detail Page
 When User add item to cart
 Then Item must be available in cart
+
+Scenario: Checkout Items
+Given Item must be available in cart
+When User Checkout
+Then Order must checkedout
  
