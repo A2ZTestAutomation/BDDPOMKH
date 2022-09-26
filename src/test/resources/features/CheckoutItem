@@ -5,3 +5,4 @@ Given Item must be available in cart
 When User Checkout
 Then Order must checkedout
 And User should get email
+And Should notify user
